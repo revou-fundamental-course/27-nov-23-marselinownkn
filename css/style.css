@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font: 16px/28px "Roboto", sans-serif;
+	background-color: white;
+	color: #333;
+	scroll-behavior: smooth;
+
+}
+
+h1, h4 {
+	text-align: center;
+}
+
+
+h5 {
+	font-weight: lighter;
+}
+
+.triangle-area-navigation {
+	background-color: cornflowerblue;
+	margin: 2rem;
+
+}
+
+.triangle-area-navigation li a {
+	color: white;
+}
+
+.perimeter-of-triangle {
+	background-color: cornflowerblue;
+	margin: 2rem;
+}
+
+.perimeter-of-triangle li a {
+	color: white;
+}
+
+.parallelogram-area-navigation {
+	background-color: whitesmoke;
+	margin: 2rem;
+}
+
+.parallelogram-area-navigation li a {
+	color: cornflowerblue;
+}
+
+.perimeter-of-parallelogram {
+	background-color: whitesmoke;
+	margin: 2rem;
+}
+
+.perimeter-of-parallelogram li a {
+	color: cornflowerblue;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 3rem;
+}
+
+
+.title {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 2rem;
+	
+
+}
+
+
+.navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation ul li {
+	margin: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: auto;
+	padding-right: auto;
+	font-weight: bold;
+	border-radius: 3px;
+
+
+
+}
+
+
+
+.navigation ul li a {
+	text-decoration: none;
+
+
+}
+
+
+.cover {
+	width: 100%;
+	margin-top: 2rem;
+
+}
+
+
+
+.triangle-title {
+	background-color: cornflowerblue;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.triangle-content {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	width: 100%;
+	
+}
+
+.triangle-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4rem auto;
+}
+
+.triangle-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 2rem 2rem;
+	padding: 1rem 1rem;
+}
+
+
+
+
+
+
+
+
+.cover {
+	width: 100%;
+	margin-top: 2rem;
+
+}
+
+
+
+.parallelogram-title {
+	background-color: cornflowerblue;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.parallelogram-content {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	width: 100%;
+	
+}
+
+.parallelogram-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4rem auto;
+}
+
+.parallelogram-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 2rem 2rem;
+	padding: 1rem 1rem;
+}
+
+
+
+
+footer {
+	height: 50px;
+	background-color: ghostwhite;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
