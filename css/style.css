@@ -35,31 +35,15 @@ h5 {
 }
 
 .perimeter-of-triangle {
-	background-color: cornflowerblue;
+	background-color: ghostwhite;
 	margin: 2rem;
 }
 
 .perimeter-of-triangle li a {
-	color: white;
-}
-
-.parallelogram-area-navigation {
-	background-color: whitesmoke;
-	margin: 2rem;
-}
-
-.parallelogram-area-navigation li a {
 	color: cornflowerblue;
 }
 
-.perimeter-of-parallelogram {
-	background-color: whitesmoke;
-	margin: 2rem;
-}
 
-.perimeter-of-parallelogram li a {
-	color: cornflowerblue;
-}
 
 .grid {
 	display: grid;
@@ -68,7 +52,7 @@ h5 {
 }
 
 
-.title {
+.title-of-calculator {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -104,11 +88,9 @@ h5 {
 }
 
 
-
 .navigation ul li a {
 	text-decoration: none;
 
-
 }
 
 
@@ -120,77 +102,109 @@ h5 {
 
 
 
-.triangle-title {
+.title {
 	background-color: cornflowerblue;
 	width: 100%;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	color: white;
 }
 
-.triangle-content {
+.content {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 	width: 100%;
+
 	
 }
 
-.triangle-image {
+.image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 4rem auto;
 }
 
-.triangle-info {
+.info {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	margin: 2rem 2rem;
 	padding: 1rem 1rem;
+	border-bottom: 1px solid black;
 }
 
 
+.calculasion form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin: 2rem;	
 
-
-
-
-
-
-.cover {
-	width: 100%;
-	margin-top: 2rem;
-
-}
-
-
-
-.parallelogram-title {
-	background-color: cornflowerblue;
-	width: 100%;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-}
-
-.parallelogram-content {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	width: 100%;
 	
 }
 
-.parallelogram-image {
+.calculasion input, select {
+	width: 100%;
+	padding: 0.75rem 1.3rem;
+	font-family: "Roboto", sans-serif;
+	background: #fbfbfb;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	resize: none;
+}
+
+
+
+.calculasion button {
+
+	width: 100px;
+	margin-top: 1rem;
+	padding: 0.75rem 1.3rem;
+	font-family: "Roboto", sans-serif;
+	background-color: cornflowerblue;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.calculasion button:hover {
+	background-color: #232e35;
+	transition: .5s ease-in-out;
+}
+
+.button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 4rem auto;
 }
 
-.parallelogram-info {
+.reset {
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	margin: 2rem 2rem;
-	padding: 1rem 1rem;
+	flex-direction: row;
+	justify-content: flex-end;
+	text-align: center;
+	margin-right: 2rem;
+}
+
+.reset .reset-btn {
+	width: 70px;
+	margin: 2rem;
+	padding: 0.75rem 1.3rem;
+	font-family: "Roboto", sans-serif;
+	background-color: goldenrod;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.error {
+	color: red;
+	font-size: 14px;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
 }
 
 
