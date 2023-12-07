@@ -188,7 +188,7 @@ h5 {
 	margin-right: 2rem;
 }
 
-.reset .reset-btn {
+.reset #resetButton {
 	width: 70px;
 	margin: 2rem;
 	padding: 0.75rem 1.3rem;
@@ -199,6 +199,19 @@ h5 {
 	border-radius: 3px;
 	cursor: pointer;
 }
+
+.reset #buttonReset {
+	width: 70px;
+	margin: 2rem;
+	padding: 0.75rem 1.3rem;
+	font-family: "Roboto", sans-serif;
+	background-color: goldenrod;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
 
 .error {
 	color: red;
@@ -220,3 +233,6 @@ footer {
 }
 
 
+.error {
+	display: inline-block;
+}
