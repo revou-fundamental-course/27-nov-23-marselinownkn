@@ -12,7 +12,6 @@ body {
 	background-color: white;
 	color: #333;
 	scroll-behavior: smooth;
-
 }
 
 h1, h4 {
@@ -27,7 +26,6 @@ h5 {
 .triangle-area-navigation {
 	background-color: cornflowerblue;
 	margin: 2rem;
-
 }
 
 .triangle-area-navigation li a {
@@ -42,8 +40,6 @@ h5 {
 .perimeter-of-triangle li a {
 	color: cornflowerblue;
 }
-
-
 
 .grid {
 	display: grid;
@@ -63,10 +59,7 @@ h5 {
 	text-align: center;
 	flex-direction: column;
 	gap: 2rem;
-	
-
 }
-
 
 .navigation ul {
 	list-style: none;
@@ -82,24 +75,17 @@ h5 {
 	padding-right: auto;
 	font-weight: bold;
 	border-radius: 3px;
-
-
-
 }
-
 
 .navigation ul li a {
 	text-decoration: none;
 
 }
 
-
 .cover {
 	width: 100%;
 	margin-top: 2rem;
-
 }
-
 
 
 .title {
@@ -114,8 +100,6 @@ h5 {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 	width: 100%;
-
-	
 }
 
 .image {
@@ -134,14 +118,11 @@ h5 {
 	border-bottom: 1px solid black;
 }
 
-
 .calculasion form {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	margin: 2rem;	
-
-	
+	margin: 2rem;		
 }
 
 .calculasion input, select {
@@ -155,9 +136,7 @@ h5 {
 }
 
 
-
 .calculasion button {
-
 	width: 100px;
 	margin-top: 1rem;
 	padding: 0.75rem 1.3rem;
@@ -212,7 +191,6 @@ h5 {
 	cursor: pointer;
 }
 
-
 .error {
 	color: red;
 	font-size: 14px;
@@ -220,8 +198,9 @@ h5 {
 	transition: opacity 0.5s ease-in-out;
 }
 
-
-
+.error {
+	display: inline-block;
+}
 
 footer {
 	height: 50px;
@@ -230,9 +209,4 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-
-.error {
-	display: inline-block;
 }

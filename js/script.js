@@ -47,7 +47,6 @@ resetButton.addEventListener('click', function() {
   form.reset(); 
   hideError(errorSpanOne);
   hideError(errorSpanTwo); 
-  resultClear();
 });
 
 function calculateTriangleArea(base, height) {
@@ -72,10 +71,7 @@ function hideError(errorElement) {
   errorElement.style.opacity = '0';
 }
 
-function resultClear() {
-  resultArea.parentElement.style.display = 'none'; 
-  resultArea.textContent = ''; 
-}
+
 
 
 
