@@ -22,7 +22,7 @@ form.addEventListener('submit', function(event) {
 
   if (!isNaN(inputValueOne) && !isNaN(inputValueTwo)) {
     const area = calculateTriangleArea(inputValueOne, inputValueTwo);
-    resultArea.textContent = `L = 1/2 x ${inputValueOne} x ${inputValueTwo} = ${area}`;
+    resultArea.textContent = `Luas Segitiganya = ${area}`;
     resultArea.parentElement.style.display = 'block';
   }
 });
@@ -101,7 +101,7 @@ fieldInput.addEventListener('submit', function(event) {
 
   if (!isNaN(inputOneValue) && !isNaN(inputTwoValue) && !isNaN(inputThreeValue)) {
     const around = calculateAroundTriangle(inputOneValue, inputTwoValue, inputThreeValue);
-    areaResult.textContent = `K = ${inputOneValue} + ${inputTwoValue} + ${inputThreeValue} = ${around}`
+    areaResult.textContent = `Keliling Segitiganya = ${around}`
     areaResult.parentElement.style.display = 'block';
   }
 });
